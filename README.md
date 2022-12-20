@@ -1,9 +1,12 @@
-# istella22-experiments
+# Experiments on the Istella22 Dataset
 
 # LambdaMART
 
-Three LambdaMART models are available in this repository. The experiments
-published in the Istella22 SIGIR 2022 resource paper can be reproduced by following the Jupyter Notebook `evaluation`.
+Three LambdaMART models are available in this repository. The experiments published in the Istella22 resource paper can be reproduced by following the Jupyter Notebook `evaluation`.
+
+Additional features to build the MonoT5 SVM files can be found in the `lambdamart/data` subdirectory. Features should be pasted to the `test.svm` file to build the final test file for the MonoT5 and MonoT5 (Title + Url + Text) versions.
+
+Both models and features are gzipped. Unzip them before use.
 
 # MonoT5
 
