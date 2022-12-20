@@ -1,5 +1,10 @@
 # istella22-experiments
 
+# LambdaMART
+
+Three LambdaMART models are available in this repository. The experiments
+published in the Istella22 SIGIR 2022 resource paper can be reproduced by following the Jupyter Notebook `evaluation`.
+
 # MonoT5
 
 MonoT5 models are available on Huggingface as [macavaney/it5-base-istella-title_url_text](https://huggingface.co/macavaney/it5-base-istella-title_url_text) and
