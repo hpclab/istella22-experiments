@@ -39,7 +39,7 @@ python run_monot5.py
 
 # Citation
 
-If you use Istella22 and/or the source code this GitHub repository, please cite:
+If you use Istella22 and/or the source code shared with this GitHub repository, please cite:
 
 [The Istella22 Dataset: Bridging Traditional and Neural Learning to Rank Evaluation](https://dl.acm.org/doi/abs/10.1145/3477495.3531740)
 
