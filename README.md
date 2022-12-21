@@ -4,7 +4,12 @@
 
 Three LambdaMART models are available in this repository. The experiments published in the Istella22 resource paper can be reproduced by following the Jupyter Notebook `evaluation`.
 
-Additional features to build the MonoT5 SVM files can be found in the `lambdamart/data` subdirectory. Features should be pasted to the `test.svm` file to build the final test file for the MonoT5 and MonoT5 (Title + Url + Text) versions.
+Additional features to build the MonoT5 SVM files can be found in the `lambdamart/data` subdirectory. The features should be pasted to the Istella22 official `test.svm` file to build the final test file for the MonoT5 and MonoT5 (Title + Url + Text) versions. Final test files can be produced using the `paste` command.
+
+```bash
+paste -d' ' test.svm monoT5.feature.svm > test.monoT5.svm
+paste -d' ' test.svm monoT5.titleUrlText.svm > test.monoT5.titleUrlText.svm
+```
 
 Both models and features are gzipped. Unzip them before use.
 
