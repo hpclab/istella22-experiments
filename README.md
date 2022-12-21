@@ -1,5 +1,9 @@
 # Experiments on the Istella22 Dataset
 
+This GitHub repository contains instructions on how to replicate the results presented in:
+
+[The Istella22 Dataset: Bridging Traditional and Neural Learning to Rank Evaluation](https://dl.acm.org/doi/abs/10.1145/3477495.3531740)
+
 # LambdaMART
 
 Three LambdaMART models are available in this repository. The experiments published in the Istella22 resource paper can be reproduced by following the Jupyter Notebook `evaluation`.
@@ -51,3 +55,4 @@ If you use Istella22 and/or the source code shared with this GitHub repository, 
     year = {2022}
 }
 ```
+
